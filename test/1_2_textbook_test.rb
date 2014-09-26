@@ -38,7 +38,6 @@ class TextbookTest < Minitest::Test
   end
 
   def test_shows_multiple_pages
-    skip
     expected_data = page_data
     second_expected_data = second_page_data
     page = Page.new(expected_data)
